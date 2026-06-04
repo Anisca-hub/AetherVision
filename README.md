@@ -24,26 +24,8 @@ Interpretability: Using Grad-CAM, we can visualize the model's attention. The he
 ![alt text](<Screenshot 2026-06-05 003800.png>)
 
 📋 Project Structure
-AetherVision/
-├── data/
-│   └── raw/
-│       ├── test_dataset/
-│       └── train_dataset/
-│           ├── train_images/
-│           └── train.json
-├── notebooks/
-│   └── exploration.ipynb
-├── src/
-│   ├── __init__.py
-│   ├── data_loader.py
-│   ├── gradcam.py
-│   ├── loss.py
-│   └── model.py
-├── .gitignore
-├── image.png
-├── main.py
-├── README.md
-└── requirements.txt
+<img width="328" height="546" alt="image" src="https://github.com/user-attachments/assets/cd064615-dd31-45d1-a1e3-07f7a041d8ec" />
+
 
 🏗️ Technical Stack
 This stack highlights your proficiency in deep learning, data engineering, and model interpretability.
