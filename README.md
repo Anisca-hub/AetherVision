@@ -1,4 +1,4 @@
-AetherVision: Intelligent Weather Classification System 🌦️
+AetherVision: Image Based Weather Classification 🌦️
 
 AetherVision is a high-performance computer vision framework designed to classify meteorological conditions with precision. Leveraging Vision Transformers (ViT) and custom Focal Loss optimization, the system achieves state-of-the-art accuracy in handling imbalanced environmental datasets.
 
