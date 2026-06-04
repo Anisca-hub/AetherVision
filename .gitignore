@@ -1,0 +1,20 @@
+# --- Environment & Virtualization ---
+.venv/
+venv/
+.env
+__pycache__/
+
+# --- Data & Artifacts ---
+data/
+!data/**/*.py
+*.pth
+*.pt
+*.onnx
+
+# --- Logs & Metadata ---
+lightning_logs/
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+.idea/
+*.log
