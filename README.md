@@ -45,6 +45,32 @@ This stack highlights your proficiency in deep learning, data engineering, and m
 
 This project is optimized for high-performance computing. Because training Vision Transformers (ViT) on local hardware can be time-prohibitive, this workflow is designed to run seamlessly on Google Colab with a T4 GPU.
 
+Option A: Running on Google Colab (Recommended)
+
+This workflow is optimized for the T4 GPU to significantly reduce training times.
+
+Upload to Drive: Upload the entire AetherVision/ folder to your Google Drive.
+
+Open Notebook: Open AetherVision.ipynb in Google Colab.
+
+Configure Runtime: Navigate to Runtime > Change runtime type and select T4 GPU.
+
+Mount & Setup: In the notebook, run the following cells:
+
+from google.colab import drive
+drive.mount('/content/drive')
+
+%cd /content/drive/MyDrive/AetherVision/
+
+pip install -r requirements.txt -q
+
+Execute Pipeline:
+python main.py
+
+Option B: Running on Local Machine (More execution time)
+
+If you prefer local environment:
+
 1. Clone the Repository:
 
 git clone https://github.com/Anisca-hub/AetherVision.git
