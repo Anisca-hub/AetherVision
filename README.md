@@ -1,9 +1,9 @@
-AetherVision: Image Based Weather Classification 🌦️
+**AetherVision: Image Based Weather Classification** 🌦️
 
 AetherVision is a high-performance computer vision framework designed to classify meteorological conditions with precision. Leveraging Vision Transformers (ViT) and custom Focal Loss optimization, the system achieves state-of-the-art accuracy in handling imbalanced environmental datasets.
 
 
-🚀 Key Features
+🚀 **Key Features**
 
 State-of-the-Art Architecture: Powered by timm (PyTorch Image Models) using pre-trained Vision Transformers for global contextual awareness.
 
@@ -14,13 +14,13 @@ Interpretability: Built-in Grad-CAM integration to visualize model attention and
 Production-Ready Pipeline: Optimized data loaders with seamless support for large-scale image processing and hardware acceleration (CUDA).
 
 
-📊 Results & Visualization
+📊 **Results & Visualization**
 
 The AetherVision system has been optimized to ensure high-fidelity classification and reliable feature identification. Below is the performance trajectory of the model and a sample visualization of its decision-making process.
 
-Performance Metrics: The graph above illustrates the model's convergence, showing minimal divergence between training and validation loss, confirming the system's ability to generalize to unseen data.
+**Performance Metrics**: The graph above illustrates the model's convergence, showing minimal divergence between training and validation loss, confirming the system's ability to generalize to unseen data.
 
-Interpretability: Using Grad-CAM, we can visualize the model's attention. The heatmap below highlights how the Vision Transformer (ViT) effectively isolates meteorological features, ignoring extraneous background noise.
+**Interpretability**: Using Grad-CAM, we can visualize the model's attention. The heatmap below highlights how the Vision Transformer (ViT) effectively isolates meteorological features, ignoring extraneous background noise.
 
 ![alt text](<Screenshot 2026-06-05 003542.png>)
 
@@ -29,23 +29,22 @@ Interpretability: Using Grad-CAM, we can visualize the model's attention. The he
 ![alt text](<Screenshot 2026-06-05 003800.png>)
 
 
-📋 Project Structure
+📋 **Project Structure**
 
 <img width="328" height="546" alt="image" src="https://github.com/user-attachments/assets/cd064615-dd31-45d1-a1e3-07f7a041d8ec" />
 
 
-
-🏗️ Technical Stack
+🏗️ **Technical Stack**
 
 This stack highlights your proficiency in deep learning, data engineering, and model interpretability.
 ![alt text](image.png)
 
 
-🚀 Getting Started
+🚀 **Getting Started**
 
 This project is optimized for high-performance computing. Because training Vision Transformers (ViT) on local hardware can be time-prohibitive, this workflow is designed to run seamlessly on Google Colab with a T4 GPU.
 
-Option A: Running on Google Colab (Recommended)
+**Option A: Running on Google Colab (Recommended)**
 
 This workflow is optimized for the T4 GPU to significantly reduce training times.
 
@@ -67,7 +66,7 @@ pip install -r requirements.txt -q
 Execute Pipeline:
 python main.py
 
-Option B: Running on Local Machine (More execution time)
+**Option B: Running on Local Machine (More execution time)**
 
 If you prefer local environment:
 
